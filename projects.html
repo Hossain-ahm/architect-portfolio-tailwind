@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architectural Integrity &amp; Spatial Logic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-ink: #0a0a0a;
+      --color-paper: #f2f2f0;
+      --color-hairline: #d4d4d0;
+      --color-muted: #737373;
+      --font-sans: "Archivo", ui-sans-serif, system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-paper text-ink font-sans antialiased">
+<header class="border-b border-hairline">
+  <div class="mx-auto max-w-[1400px] px-6 md:px-10">
+    <nav class="flex items-center justify-between h-16">
+
+      <a href="index.html" class="text-sm font-bold tracking-tight">
+        STUDENT_PORTFOLIO_V1
+      </a>
+
+      <!-- Desktop Links (Hidden on mobile) -->
+      <ul class="hidden md:flex items-center gap-8 text-[11px] tracking-[0.15em] text-muted">
+        <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
+        <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
+        <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
+      </ul>
+
+      <div class="flex items-center gap-6">
+        <!-- search icon -->
+        <a href="#" class="text-muted hover:text-ink transition-colors" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+          </svg>
+        </a>
+        <a href="#" class="bg-ink text-paper text-[10px] font-bold tracking-[0.15em] px-5 py-2.5 hover:bg-muted transition-colors">
+          DOWNLOAD_CV
+        </a>
+      </div>
+
+    </nav>
+    
+    <!-- Mobile Links (Stacked below nav on mobile, hidden on desktop) -->
+    <ul class="flex md:hidden items-center justify-between gap-4 pb-4 pt-1 text-[10px] tracking-[0.1em] text-muted">
+      <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
+      <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
+      <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
+    </ul>
+  </div>
+</header>
+
+<footer>
+  <section class="bg-ink text-paper">
+    <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-24 md:py-32 text-center">
+      <h2 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.05] max-w-4xl mx-auto">
+        STAY UPDATED ON THE LATEST STRUCTURAL INVESTIGATIONS.
+      </h2>
+      
+      <!-- Email Input -->
+      <div class="mt-12 max-w-md mx-auto flex items-center gap-4 border-b border-muted pb-3 focus-within:border-paper transition-colors duration-300">
+        <input 
+          type="email" 
+          placeholder="EMAIL ADDRESS" 
+          class="flex-1 bg-transparent focus:outline-none placeholder:text-muted placeholder:tracking-[0.15em] placeholder:text-[11px] text-sm text-paper"
+        >
+        <button type="button" class="group text-muted hover:text-paper transition-colors" aria-label="Submit">          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- JOURNAL / NOTES / TWITTER -->
+      <div class="mt-16 flex gap-10 justify-center text-[11px] tracking-[0.15em] text-muted">
+        <a href="#" class="hover:text-paper transition-colors">JOURNAL</a>
+        <a href="#" class="hover:text-paper transition-colors">NOTES</a>
+        <a href="#" class="hover:text-paper transition-colors">TWITTER</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal Bar -->
+  <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-4 flex justify-between text-[10px] tracking-[0.15em] text-muted">
+    <span>© 2024 ARCHITECTURAL PORTFOLIO. ALL RIGHTS RESERVED.</span>
+    
+    <!-- INSTAGRAM LINKEDIN GITHUB -->
+    <div class="flex gap-6">
+      <a href="#" class="hover:text-ink transition-colors">INSTAGRAM</a>
+      <a href="#" class="hover:text-ink transition-colors">LINKEDIN</a>
+      <a href="#" class="hover:text-ink transition-colors">GITHUB</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
