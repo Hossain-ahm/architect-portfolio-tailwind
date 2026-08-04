@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Architectural Integrity &amp; Spatial Logic</title>
+  <title>Contact — Student Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <style type="text/tailwindcss">
@@ -19,86 +21,243 @@
     }
   </style>
 </head>
+
 <body class="bg-paper text-ink font-sans antialiased">
-<header class="border-b border-hairline">
-  <div class="mx-auto max-w-[1400px] px-6 md:px-10">
-    <nav class="flex items-center justify-between h-16">
+  <header class="border-b border-hairline">
+    <div class="mx-auto max-w-[1400px] px-6 md:px-10">
+      <nav class="flex items-center justify-between gap-4 h-16">
 
-      <a href="index.html" class="text-sm font-bold tracking-tight">
-        STUDENT_PORTFOLIO_V1
-      </a>
+        <a href="index.html" class="text-xs sm:text-sm font-bold tracking-tight">
+          STUDENT_PORTFOLIO_V1
+        </a>
 
-      <!-- Desktop Links (Hidden on mobile) -->
-      <ul class="hidden md:flex items-center gap-8 text-[11px] tracking-[0.15em] text-muted">
-        <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
+        <!-- Desktop Links (Hidden on mobile) -->
+        <ul class="hidden md:flex items-center gap-8 text-[11px] tracking-[0.15em] text-muted">
+          <li><a href="index.html" class="hover:text-ink transition-colors">HOME</a></li>
+          <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
+          <li><a href="contact.html" class="text-ink border-b-2 border-ink pb-1">CONTACT</a></li>
+        </ul>
+
+        <div class="flex items-center gap-6">
+          <!-- search icon -->
+          <a href="#" class="hidden sm:block text-muted hover:text-ink transition-colors" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-4 h-4">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+          </a>
+          <a href="#"
+            class="bg-ink text-paper text-[10px] font-bold tracking-[0.15em] px-5 py-2.5 hover:bg-muted transition-colors">
+            DOWNLOAD_CV
+          </a>
+        </div>
+
+      </nav>
+
+      <!-- Mobile Links (Stacked below nav on mobile, hidden on desktop) -->
+      <ul class="flex md:hidden items-center justify-between gap-4 pb-4 pt-1 text-[10px] tracking-[0.1em] text-muted">
+        <li><a href="index.html" class="hover:text-ink transition-colors">HOME</a></li>
         <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
-        <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
+        <li><a href="contact.html" class="text-ink border-b-2 border-ink pb-1">CONTACT</a></li>
       </ul>
+    </div>
+  </header>
 
-      <div class="flex items-center gap-6">
-        <!-- search icon -->
-        <a href="#" class="text-muted hover:text-ink transition-colors" aria-label="Search">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-          </svg>
-        </a>
-        <a href="#" class="bg-ink text-paper text-[10px] font-bold tracking-[0.15em] px-5 py-2.5 hover:bg-muted transition-colors">
-          DOWNLOAD_CV
-        </a>
+  <section>
+    <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-16 md:py-20">
+
+      <div class="border-l-2 border-ink pl-6 mb-16 pb-12 border-b border-b-hairline">
+        <p class="text-[10px] tracking-[0.25em] text-muted mb-4">03 // INQUIRY_NODE</p>
+        <h1 class="text-3xl sm:text-5xl md:text-6xl font-black tracking-[-0.02em] leading-[0.95] mb-6">
+          LEAVE YOUR<br><span class="italic underline decoration-2 underline-offset-8">MARK.</span>
+        </h1>
+        <p class="text-[11px] tracking-[0.15em] text-muted leading-loose max-w-2xl">
+          CURRENTLY EXPLORING THE INTERSECTION OF TECTONIC MATERIALITY AND DIGITAL
+          INTERFACES. OPEN FOR ARCHITECTURAL VISUALIZATIONS, FULL-STACK COLLABORATIONS,
+          AND TECHNICAL DIALOGUE.
+        </p>
       </div>
 
-    </nav>
-    
-    <!-- Mobile Links (Stacked below nav on mobile, hidden on desktop) -->
-    <ul class="flex md:hidden items-center justify-between gap-4 pb-4 pt-1 text-[10px] tracking-[0.1em] text-muted">
-      <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
-      <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
-      <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
-    </ul>
-  </div>
-</header>
+      <!-- TWO COLUMNS -->
 
-<footer>
-  <section class="bg-ink text-paper">
-    <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-24 md:py-32 text-center">
-      <h2 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.05] max-w-4xl mx-auto">
-        STAY UPDATED ON THE LATEST STRUCTURAL INVESTIGATIONS.
-      </h2>
-      
-      <!-- Email Input -->
-      <div class="mt-12 max-w-md mx-auto flex items-center gap-4 border-b border-muted pb-3 focus-within:border-paper transition-colors duration-300">
-        <input 
-          type="email" 
-          placeholder="EMAIL ADDRESS" 
-          class="flex-1 bg-transparent focus:outline-none placeholder:text-muted placeholder:tracking-[0.15em] placeholder:text-[11px] text-sm text-paper"
-        >
-        <button type="button" class="group text-muted hover:text-paper transition-colors" aria-label="Submit">          
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-          </svg>
-        </button>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+
+        <div class="lg:col-span-6 border border-hairline p-8 self-start">
+          <!-- FORM -->
+          <form class="flex flex-col gap-6">
+
+            <div class="flex flex-col sm:flex-row gap-6">
+              <div class="flex-1 flex flex-col gap-2">
+                <label for="name" class="text-[10px] font-bold tracking-[0.2em]">FULL NAME</label>
+                <input id="name" type="text" placeholder="ALEX_VANCE"
+                  class="border border-hairline bg-transparent px-4 py-3 text-xs tracking-[0.1em] placeholder:text-muted focus:outline-none focus:border-ink transition-colors">
+              </div>
+              <div class="flex-1 flex flex-col gap-2">
+                <label for="email" class="text-[10px] font-bold tracking-[0.2em]">EMAIL ADDRESS</label>
+                <input id="email" type="email" placeholder="CLIENT@DOMAIN.COM"
+                  class="border border-hairline bg-transparent px-4 py-3 text-xs tracking-[0.1em] placeholder:text-muted focus:outline-none focus:border-ink transition-colors">
+              </div>
+            </div>
+
+            <!-- SUBJECT -->
+            <div class="flex flex-col gap-2">
+              <label for="subject" class="text-[10px] font-bold tracking-[0.2em]">SUBJECT</label>
+              <input id="subject" type="text" placeholder="INQUIRY_TITLE // GENERAL_COLLABORATION"
+                class="border border-hairline bg-transparent px-4 py-3 text-xs tracking-[0.1em] placeholder:text-muted focus:outline-none focus:border-ink transition-colors">
+            </div>
+
+            <!-- MESSAGE -->
+            <div class="flex flex-col gap-2">
+              <label for="message" class="text-[10px] font-bold tracking-[0.2em]">MESSAGE</label>
+              <textarea id="message" rows="4" placeholder="ENTER_DETAILS_REGARDING_YOUR_PROJECT_OR_INQUIRY..."
+                class="border border-hairline bg-transparent px-4 py-3 text-xs tracking-[0.1em] placeholder:text-muted focus:outline-none focus:border-ink transition-colors resize-none"></textarea>
+            </div>
+
+            <button type="submit"
+              class="group self-start inline-flex items-center gap-3 bg-ink text-paper text-[10px] font-bold tracking-[0.2em] px-8 py-4 hover:bg-muted transition-colors">
+              INITIALIZE CONTACT
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                stroke="currentColor" class="w-4 h-4 group-hover:translate-x-1 transition-transform">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <div class="lg:col-span-5 lg:col-start-8 flex flex-col gap-10">
+
+          <!-- BLOCK 1: GEOGRAPHIC NODE -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-px bg-ink"></div>
+              <span class="text-[10px] font-bold tracking-[0.2em]">GEOGRAPHIC NODE</span>
+            </div>
+            <div class="flex flex-col gap-2 mb-4">
+              <h3 class="text-sm font-black tracking-tight">METRO_STATION_404</h3>
+              <p class="text-xs text-muted leading-relaxed tracking-[0.05em]">
+                1048 TECTONIC BOULEVARD, SUITE 400<br>
+                DISTRICT 07, BERLIN 10115
+              </p>
+            </div>
+            <!-- MAP PLACEHOLDER -->
+            <div class="border border-hairline aspect-video bg-hairline/20 flex items-center justify-center p-4">
+              <span class="text-[10px] font-bold tracking-[0.2em] text-muted text-center">
+                [ MAP_PLACEHOLDER // LAT: 52.5200° N, LONG: 13.4050° E ]
+              </span>
+            </div>
+          </div>
+
+          <!-- BLOCK 2: DIRECT REACH -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-px bg-ink"></div>
+              <span class="text-[10px] font-bold tracking-[0.2em]">DIRECT REACH</span>
+            </div>
+            <div class="flex flex-col border-t border-b border-hairline">
+              <a href="mailto:alex.vance@portfolio.v1"
+                class="flex items-center justify-between py-3 text-xs tracking-[0.1em] font-bold hover:text-muted transition-colors border-b border-hairline">
+                <span>ALEX.VANCE@PORTFOLIO_V1.ARCH</span>
+                <span>↗</span>
+              </a>
+              <a href="tel:+15550192834"
+                class="flex items-center justify-between py-3 text-xs tracking-[0.1em] font-bold hover:text-muted transition-colors">
+                <span>+1 (555) 019-2834</span>
+                <span>↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- BLOCK 3: DIGITAL PRESENCE -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-px bg-ink"></div>
+              <span class="text-[10px] font-bold tracking-[0.2em]">DIGITAL PRESENCE</span>
+            </div>
+            <div class="flex flex-wrap gap-3">
+              <a href="#"
+                class="border border-hairline px-4 py-2.5 text-[10px] font-bold tracking-[0.15em] hover:bg-ink hover:text-paper hover:border-ink transition-colors">
+                GITHUB
+              </a>
+              <a href="#"
+                class="border border-hairline px-4 py-2.5 text-[10px] font-bold tracking-[0.15em] hover:bg-ink hover:text-paper hover:border-ink transition-colors">
+                LINKEDIN
+              </a>
+              <a href="#"
+                class="border border-hairline px-4 py-2.5 text-[10px] font-bold tracking-[0.15em] hover:bg-ink hover:text-paper hover:border-ink transition-colors">
+                TWITTER
+              </a>
+            </div>
+          </div>
+
+          <!-- BLOCK 4: AVAILABILITY -->
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-8 h-px bg-ink"></div>
+              <span class="text-[10px] font-bold tracking-[0.2em]">AVAILABILITY</span>
+            </div>
+            <div class="flex flex-col gap-1 text-xs tracking-[0.05em] text-muted">
+              <div class="flex justify-between items-center py-1">
+                <span class="font-bold text-ink">STATUS</span>
+                <span class="text-[10px] tracking-[0.15em] bg-ink text-paper px-2 py-0.5">OPEN_FOR_COMMISSIONS</span>
+              </div>
+              <div class="flex justify-between items-center py-1 border-t border-hairline mt-2 pt-2">
+                <span class="font-bold text-ink">RESPONSE TIME</span>
+                <span>&lt; 24 HOURS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
-      <!-- JOURNAL / NOTES / TWITTER -->
-      <div class="mt-16 flex gap-10 justify-center text-[11px] tracking-[0.15em] text-muted">
-        <a href="#" class="hover:text-paper transition-colors">JOURNAL</a>
-        <a href="#" class="hover:text-paper transition-colors">NOTES</a>
-        <a href="#" class="hover:text-paper transition-colors">TWITTER</a>
-      </div>
     </div>
   </section>
 
-  <!-- Legal Bar -->
-  <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-4 flex justify-between text-[10px] tracking-[0.15em] text-muted">
-    <span>© 2024 ARCHITECTURAL PORTFOLIO. ALL RIGHTS RESERVED.</span>
-    
-    <!-- INSTAGRAM LINKEDIN GITHUB -->
-    <div class="flex gap-6">
-      <a href="#" class="hover:text-ink transition-colors">INSTAGRAM</a>
-      <a href="#" class="hover:text-ink transition-colors">LINKEDIN</a>
-      <a href="#" class="hover:text-ink transition-colors">GITHUB</a>
+  <footer>
+    <section class="bg-ink text-paper">
+      <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-24 md:py-32 text-center">
+        <h2
+          class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] max-w-4xl mx-auto">
+          STAY UPDATED ON THE LATEST STRUCTURAL INVESTIGATIONS.
+        </h2>
+
+        <!-- Email Input -->
+        <div
+          class="mt-12 max-w-md mx-auto flex items-center gap-4 border-b border-muted pb-3 focus-within:border-paper transition-colors duration-300">
+          <input type="email" placeholder="EMAIL ADDRESS"
+            class="flex-1 bg-transparent focus:outline-none placeholder:text-muted placeholder:tracking-[0.15em] placeholder:text-[11px] text-sm text-paper">
+          <button type="button" class="group text-muted hover:text-paper transition-colors" aria-label="Submit">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-5 h-5 group-hover:translate-x-1 transition-transform">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- JOURNAL / NOTES / TWITTER -->
+        <div class="mt-16 flex gap-10 justify-center text-[11px] tracking-[0.15em] text-muted">
+          <a href="#" class="hover:text-paper transition-colors">JOURNAL</a>
+          <a href="#" class="hover:text-paper transition-colors">NOTES</a>
+          <a href="#" class="hover:text-paper transition-colors">TWITTER</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Legal Bar -->
+    <div
+      class="mx-auto max-w-[1400px] px-6 md:px-10 py-4 flex flex-col gap-3 sm:flex-row sm:justify-between text-[10px] tracking-[0.15em] text-muted">
+      <span>© 2024 ARCHITECTURAL PORTFOLIO. ALL RIGHTS RESERVED.</span>
+
+      <!-- INSTAGRAM LINKEDIN GITHUB -->
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-ink transition-colors">INSTAGRAM</a>
+        <a href="#" class="hover:text-ink transition-colors">LINKEDIN</a>
+        <a href="#" class="hover:text-ink transition-colors">GITHUB</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </body>
+
 </html>
