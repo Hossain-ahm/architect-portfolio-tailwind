@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Architectural Integrity &amp; Spatial Logic</title>
+  <title>Selected Works — Student Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
@@ -25,22 +25,22 @@
 <body class="bg-paper text-ink font-sans antialiased">
   <header class="border-b border-hairline">
     <div class="mx-auto max-w-[1400px] px-6 md:px-10">
-      <nav class="flex items-center justify-between h-16">
+      <nav class="flex items-center justify-between gap-4 h-16">
 
-        <a href="index.html" class="text-sm font-bold tracking-tight">
+        <a href="index.html" class="text-xs sm:text-sm font-bold tracking-tight">
           STUDENT_PORTFOLIO_V1
         </a>
 
         <!-- Desktop Links (Hidden on mobile) -->
         <ul class="hidden md:flex items-center gap-8 text-[11px] tracking-[0.15em] text-muted">
-          <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
-          <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
+          <li><a href="index.html" class="hover:text-ink transition-colors">HOME</a></li>
+          <li><a href="projects.html" class="text-ink border-b-2 border-ink pb-1">PROJECTS</a></li>
           <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
         </ul>
 
         <div class="flex items-center gap-6">
           <!-- search icon -->
-          <a href="#" class="text-muted hover:text-ink transition-colors" aria-label="Search">
+          <a href="#" class="hidden sm:block text-muted hover:text-ink transition-colors" aria-label="Search">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="w-4 h-4">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -57,17 +57,187 @@
 
       <!-- Mobile Links (Stacked below nav on mobile, hidden on desktop) -->
       <ul class="flex md:hidden items-center justify-between gap-4 pb-4 pt-1 text-[10px] tracking-[0.1em] text-muted">
-        <li><a href="index.html" class="text-ink border-b-2 border-ink pb-1">HOME</a></li>
-        <li><a href="projects.html" class="hover:text-ink transition-colors">PROJECTS</a></li>
+        <li><a href="index.html" class="hover:text-ink transition-colors">HOME</a></li>
+        <li><a href="projects.html" class="text-ink border-b-2 border-ink pb-1">PROJECTS</a></li>
         <li><a href="contact.html" class="hover:text-ink transition-colors">CONTACT</a></li>
       </ul>
     </div>
   </header>
 
+  <section>
+    <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-16 md:py-20">
+
+      <div class="border-l-2 border-ink pl-6 mb-12">
+        <h1 class="text-2xl sm:text-5xl md:text-6xl font-black tracking-[-0.02em] mb-4">SELECTED_WORKS</h1>
+        <p class="text-[11px] tracking-[0.15em] text-muted leading-loose max-w-2xl">
+          AN ARCHIVAL COLLECTION OF ACADEMIC AND PERSONAL PROJECTS FOCUSING ON
+          STRUCTURAL INTEGRITY, COMPUTATIONAL DESIGN, AND INTERACTIVE SYSTEMS. 2022 — 2024.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- CARD 001 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/project-01.jpg" alt="Vortex Housing Complex"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">VORTEX HOUSING COMPLEX</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_001</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            Exploration of generative patterns using modular arithmetic. Focus on visual
+            weight and balance within a constrained 8px grid system.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#SYSTEMS</span>
+            <span>#TYPOGRAPHY</span>
+          </div>
+        </a>
+
+        <!-- CARD 002 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/project-02.jpg" alt="The Linear Observatory"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">THE LINEAR OBSERVATORY</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_002</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            A high-altitude research facility integrated into arid terrain. Minimal footprint with a maximized
+            cantilevered structural shell.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#SCIENCE</span>
+            <span>#MINIMALIST</span>
+          </div>
+        </a>
+
+        <!-- CARD 003 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/project-03.jpg" alt="Brutalist Atrium"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">BRUTALIST ATRIUM</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_003</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            Interlocking raw concrete volumes creating dynamic acoustic zones and dramatic vertical light shafts within
+            a civic hub.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#PUBLIC</span>
+            <span>#INTERIOR</span>
+          </div>
+        </a>
+
+        <!-- CARD 004 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/monolith.jpg" alt="The Monolith Pavilion"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">THE MONOLITH PAVILION</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_004</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            Investigation of concrete as a fluid yet structural element in public transit hubs. Designed for extreme
+            durability and crowd flow.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#PAVILION</span>
+            <span>#MATERIALITY</span>
+          </div>
+        </a>
+
+        <!-- CARD 005 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/project-05.jpg" alt="Kinetic Façade Matrix"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">KINETIC FAÇADE MATRIX</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_005</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            Parametric solar-tracking building envelope designed to optimize passive heating and natural lighting across
+            variable seasons.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#PARAMETRIC</span>
+            <span>#COMPUTATIONAL</span>
+          </div>
+        </a>
+
+        <!-- CARD 006 -->
+        <a href="#" class="group border border-hairline p-5 hover:border-ink transition-colors">
+          <div class="overflow-hidden bg-hairline/40 mb-5">
+            <img src="images/project-06.jpg" alt="Hybrid Timber Tower"
+              class="w-full h-52 object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500">
+          </div>
+
+          <div class="flex items-start justify-between gap-3 mb-3">
+            <h3 class="text-base font-black tracking-tight leading-tight">HYBRID TIMBER TOWER</h3>
+            <span class="shrink-0 border border-hairline text-[9px] tracking-[0.1em] text-muted px-2 py-1">ID_006</span>
+          </div>
+
+          <p class="text-xs text-muted leading-relaxed mb-5">
+            Mass timber structural core paired with recycled steel trusses. Exploring carbon-negative high-rise
+            construction methodologies.
+          </p>
+
+          <div class="flex gap-3 text-[9px] tracking-[0.1em] text-muted">
+            <span>#TIMBER</span>
+            <span>#SUSTAINABILITY</span>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- ARCHIVE FOOTER (INSIDE CONTAINER) -->
+      <div
+        class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 mt-16 pt-8 border-t border-hairline">
+        <div class="flex gap-10 text-[10px] tracking-[0.15em] text-muted">
+          <span>ARCHIVE_SECTION_END</span>
+          <span>VIEWING_PAGE_01_OF_04</span>
+        </div>
+        <a href="#"
+          class="border-2 border-ink text-[10px] font-bold tracking-[0.15em] px-8 py-4 hover:bg-ink hover:text-paper transition-colors">
+          LOAD_NEXT_ENTRIES
+        </a>
+      </div>
+
+    </div>
+  </section>
+
   <footer>
     <section class="bg-ink text-paper">
       <div class="mx-auto max-w-[1400px] px-6 md:px-10 py-24 md:py-32 text-center">
-        <h2 class="text-4xl md:text-6xl font-black tracking-tight leading-[1.05] max-w-4xl mx-auto">
+        <h2
+          class="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] max-w-4xl mx-auto">
           STAY UPDATED ON THE LATEST STRUCTURAL INVESTIGATIONS.
         </h2>
 
@@ -95,7 +265,7 @@
 
     <!-- Legal Bar -->
     <div
-      class="mx-auto max-w-[1400px] px-6 md:px-10 py-4 flex justify-between text-[10px] tracking-[0.15em] text-muted">
+      class="mx-auto max-w-[1400px] px-6 md:px-10 py-4 flex flex-col gap-3 sm:flex-row sm:justify-between text-[10px] tracking-[0.15em] text-muted">
       <span>© 2024 ARCHITECTURAL PORTFOLIO. ALL RIGHTS RESERVED.</span>
 
       <!-- INSTAGRAM LINKEDIN GITHUB -->
